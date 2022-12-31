@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.container-wrapper {
+  position: relative;
+}
+
+:root {
+  --box-shadow: #787876;
+}

@@ -1,0 +1,26 @@
+footer {
+  padding: 20px 100px;
+  font-size: 25px;
+  border-top: 2px solid #ababa9;
+  width: 75%;
+  margin: 0 auto;
+}
+
+footer span {
+  display: block;
+  text-align: center;
+  font-family: "Raleway";
+}
+
+footer .link-icons {
+  margin: 20px 0 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+footer img {
+  width: 25px;
+  height: 25px;
+}
