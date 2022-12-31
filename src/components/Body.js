@@ -26,11 +26,7 @@ export default function Body() {
 
   return (
     <div className="body-wrapper">
-      <div className="introduction">
-        <div className="title-name">
-          <span>Michael Mo</span>
-          <span>(Wen Tao)</span>
-        </div>
+      <div className="introduction" id="introduction">
         <div className="head-photo">
           <Photo />
         </div>
@@ -58,7 +54,7 @@ export default function Body() {
         </div>
       </div>
       <div className="line-splitter"></div>
-      <div className="projects">
+      <div className="projects" id="projects">
         <span className="project-title">Projects</span>
         <div className="projects-wrapper">
           {projects.map((value, index) => {
@@ -101,7 +97,9 @@ export default function Body() {
           })}
         </div>
         <div className="line-splitter"></div>
-        <span className="project-title">Extras</span>
+        <span className="project-title" id="extras">
+          Extras
+        </span>
         <div className="projects-wrapper">
           <div className="project-item-card">
             <span className="title">Moshui Music</span>

@@ -14,8 +14,9 @@
 .project-item-wrapper {
   position: fixed;
   top: 50%;
-  transform: translateY(-50%);
-  width: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
   height: fit-content;
   border: 1px solid black;
   padding: 25px 30px 35px;
@@ -67,5 +68,24 @@
 @media (max-width: 920px) {
   .project-item-wrapper {
     width: 80%;
+  }
+}
+
+@media (max-width: 580px) {
+  .project-item-wrapper .description {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 470px) {
+  .project-item-wrapper .description {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 310px) {
+  .project-item-wrapper .description {
+    line-height: 20px;
   }
 }

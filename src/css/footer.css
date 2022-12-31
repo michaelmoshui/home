@@ -24,3 +24,40 @@ footer img {
   width: 25px;
   height: 25px;
 }
+
+@media (max-width: 1200px) {
+  footer {
+    width: 65%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 780px) {
+  footer {
+    width: 55%;
+  }
+}
+
+@media (max-width: 550px) {
+  footer {
+    width: 45%;
+  }
+}
+
+@media (max-width: 490px) {
+  footer {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  footer {
+    width: 35%;
+  }
+}
+
+@media (max-width: 320px) {
+  footer {
+    width: 25%;
+  }
+}

@@ -1,0 +1,61 @@
+header {
+  margin: 50px 15%;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ababa9;
+}
+
+.title-name {
+  font-size: 42px;
+  font-family: "Raleway";
+  font-weight: 700;
+  display: flex;
+  gap: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: flex-end;
+  gap: 75px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: rgb(143, 143, 143);
+  font-size: 25px;
+  font-family: "Lato";
+  letter-spacing: 5px;
+}
+
+.menu-item a:hover {
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 1600px) {
+  .menu-item:first-of-type {
+    display: none;
+  }
+}
+
+@media (max-width: 1400px) {
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .title-name {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 340px) {
+  .title-name {
+    font-size: 35px;
+  }
+}

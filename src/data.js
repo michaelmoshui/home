@@ -5,15 +5,15 @@ export const projects = [
     tools: ["MongoDB", "Express", "React", "NodeJS"],
     description:
       "A Facebook clone created using the MERN stack.\n\n" +
-      "Current functionalities:\n" +
+      "Current functionalities:\n\n" +
       "1. Dynamic UI for login page, registration page, and home page header using React\n" +
       "2. User data storage in MongoDB Atlas\n" +
       "3. RESTful backend server using NodeJS checks login validation\n" +
-      "4. Redux state container and cookies keep track of user data after login\n" +
-      "Future implementations:\n" +
+      "4. Redux state container and cookies keep track of user data after login\n\n" +
+      "Future implementations:\n\n" +
       '- "Create post" functionality and cloud-based image and video storage\n' +
       "- Profile page\n" +
-      '- "Follow", "unfollow", "request", "search friend" functionalities',
+      '- "Follow", "unfollow", "friend request", "search friend" functionalities',
     link: "https://github.com/michaelmoshui/moshuiBook",
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
     identification: "leafing",
     tools: ["Flask", "MySQL", "CSS", "HTML"],
     description:
-      "A website that allows users to share or find information about restaurants with dietary restriction options. Restuarant filtering based on address, price levels, ratings, and dietary restriction type were implemented using Python. Resturant data are stored in MySQL database",
+      "A website that allows users to share or find information about restaurants with dietary restriction options. Restuarant filtering based on address, price levels, ratings, and dietary restriction type were implemented using Python. Resturant data are stored in MySQL database.",
     link: "https://github.com/michaelmoshui/newHack_leafing",
   },
   {
