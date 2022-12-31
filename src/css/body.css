@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   margin: 0 15%;
+  margin-top: 160px;
 }
 
 /* introduction */
@@ -17,7 +18,6 @@
   width: 250px;
   height: 250px;
   box-shadow: 5px 5px 9px var(--box-shadow);
-  border-radius: 20px;
 }
 
 .self-introduction {
@@ -136,6 +136,11 @@
 
 /* responsive */
 
+@media (max-width: 1400px) {
+  .body-wrapper {
+    margin-top: 300px;
+  }
+}
 @media (max-width: 920px) {
   .project-item-card {
     width: 500px;
@@ -165,5 +170,10 @@
   .project-item-card .title {
     font-size: 28px;
     font-weight: 600;
+  }
+
+  .head-photo {
+    width: 200px;
+    height: 200px;
   }
 }

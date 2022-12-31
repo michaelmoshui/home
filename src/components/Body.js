@@ -30,7 +30,8 @@ export default function Body() {
         <div className="head-photo">
           <Photo />
         </div>
-        <span className="self-introduction">
+        {/* id for project has to be moved up because header covers it */}
+        <span className="self-introduction" id="projects">
           I am a first-year engineering student at the University of Toronto
           with a great passion in emerging software technology. I have had eight
           years of programming experiences and created several projects using
@@ -54,7 +55,7 @@ export default function Body() {
         </div>
       </div>
       <div className="line-splitter"></div>
-      <div className="projects" id="projects">
+      <div className="projects">
         <span className="project-title">Projects</span>
         <div className="projects-wrapper">
           {projects.map((value, index) => {
