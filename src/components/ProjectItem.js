@@ -14,7 +14,7 @@ export default function ProjectItem(props) {
           <div className="title">
             {props.name}
             <div className="tools">
-              <span>Created Using: </span>
+              <span>Tools: </span>
               {props.tools.map((value, index) => {
                 return <div className="tool">{value}</div>;
               })}

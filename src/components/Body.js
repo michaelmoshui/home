@@ -12,6 +12,8 @@ import {
   ResumeFile,
 } from "../files/Pictures";
 import YouTubeVideo from "./YouTubeVideo";
+import { CIV102 } from "../files/Pictures";
+import CIV102Item from "./CIV102Item";
 
 export default function Body() {
   // only show card being pressed
@@ -21,6 +23,7 @@ export default function Body() {
     iniBooleans[value.identification] = false;
   });
   iniBooleans["moshuimusic"] = false;
+  iniBooleans["civ102"] = false;
 
   const [cardVisible, setCardVisible] = useState(iniBooleans);
 
@@ -64,7 +67,7 @@ export default function Body() {
                 <span className="title">{value.name}</span>
                 <div className="short-description">
                   {value.description.slice(0, 80)}
-                  {value.description.length > 80 && "..."}
+                  {value.description.length > 80 && ". . . ."}
                 </div>
                 <div className="buttons">
                   <a href={value.link} target="_blank">
@@ -141,6 +144,44 @@ export default function Body() {
                 ]}
                 link="https://www.youtube.com/@moshuimusic5869"
                 identification="moshuimusic"
+                setCardVisible={setCardVisible}
+                iniBooleans={iniBooleans}
+              />
+            )}
+          </div>
+          <div className="project-item-card">
+            <span className="title">CIV 102 Notes</span>
+            <div className="short-description">
+              {"CIV102 is a first-year Engineering Science course at the University of Toronto. This course covers various civil engineering topics such as static systems, truss bridge, bending beams, and concrete. Success in CIV 102 requires a strong understanding of civil engineering concepts and solid problem-solving skills to apply theoretical knowledge into problems.".slice(
+                0,
+                100
+              )}
+              . . . .
+            </div>
+            <div className="buttons">
+              <CIV102 />
+
+              <div
+                onClick={() => {
+                  setCardVisible({
+                    ...iniBooleans,
+                    ["civ102"]: true,
+                  });
+                }}
+              >
+                Details
+              </div>
+            </div>
+            {cardVisible["civ102"] && (
+              <CIV102Item
+                index={101}
+                name={"CIV 102 Notes"}
+                description={
+                  "CIV102 is a first-year Engineering Science course at the University of Toronto. This course covers various civil engineering topics such as static systems, truss bridge, bending beams, and concrete. Success in CIV 102 requires a strong understanding of civil engineering concepts and solid problem-solving skills to apply theoretical knowledge into problems. This hand-written note package includes all the concepts that I think are important for an overall understanding.\n\nCorrection on DAF on page 12:\nDAF = 1 / sqrt((1 - (f/fn)^2)^2 + (2 * Beta * f / fn)^2)"
+                }
+                tools={["Problem-solving skills"]}
+                link="../files/civ102"
+                identification="civ102"
                 setCardVisible={setCardVisible}
                 iniBooleans={iniBooleans}
               />
