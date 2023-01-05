@@ -1,5 +1,5 @@
 header {
-  padding: 50px 0 0;
+  padding: 20px 0 0;
   position: fixed;
   width: 100%;
   left: 50%;
@@ -66,12 +66,15 @@ header {
   }
 }
 
+@media (max-width: 685px) {
+  .menu-item:last-of-type {
+    display: none;
+  }
+}
+
 @media (max-width: 640px) {
   .title-name {
     flex-direction: column;
-  }
-  .menu-item:last-of-type {
-    display: none;
   }
 }
 
