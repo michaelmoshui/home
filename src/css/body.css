@@ -134,6 +134,24 @@
   color: black;
 }
 
+/* skills */
+
+#skills {
+  color: black;
+}
+
+.skill-item {
+  font-size: 25px;
+  width: 180px;
+  height: 40px;
+  padding: 20px;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
 /* responsive */
 
 @media (max-width: 1400px) {
@@ -156,6 +174,12 @@
   .project-item-card .short-description {
     font-size: 25px;
     line-height: 35px;
+  }
+}
+
+@media (max-width: 685px) {
+  .skill-item {
+    width: 100%;
   }
 }
 

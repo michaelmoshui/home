@@ -10,13 +10,13 @@ export default function Header() {
         </div>
         <div className="menu">
           <div className="menu-item">
-            <a href="#introduction">HOME</a>
-          </div>
-          <div className="menu-item">
             <a href="#projects">PROJECTS</a>
           </div>
           <div className="menu-item">
             <a href="#extras">EXTRAS</a>
+          </div>
+          <div className="menu-item">
+            <a href="#skills">SKILLS</a>
           </div>
         </div>
       </div>

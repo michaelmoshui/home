@@ -46,7 +46,7 @@ header {
 }
 
 @media (max-width: 1600px) {
-  .menu-item:first-of-type {
+  .menu-item:nth-of-type(2) {
     display: none;
   }
 }
@@ -64,17 +64,14 @@ header {
     align-items: flex-start;
     gap: 15px;
   }
-  .menu-item:nth-of-type(2) {
-    display: none;
-  }
-  .menu-item:last-of-type {
-    display: none;
-  }
 }
 
 @media (max-width: 640px) {
   .title-name {
     flex-direction: column;
+  }
+  .menu-item:last-of-type {
+    display: none;
   }
 }
 

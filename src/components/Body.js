@@ -1,6 +1,6 @@
 import { useState } from "react";
 import ProjectItem from "./ProjectItem";
-import { projects } from "../data";
+import { projects, skills } from "../data";
 import "../css/body.css";
 import {
   Github,
@@ -188,6 +188,19 @@ export default function Body() {
             )}
           </div>
         </div>
+      </div>
+      <div className="line-splitter"></div>
+      <span className="project-title" id="skills">
+        Skills
+      </span>
+      <div className="projects-wrapper">
+        {skills.map((val, ind) => {
+          return (
+            <div className="skill-item" key={ind}>
+              {val.name}
+            </div>
+          );
+        })}
       </div>
     </div>
   );

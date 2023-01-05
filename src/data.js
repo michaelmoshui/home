@@ -9,7 +9,8 @@ export const projects = [
       "1. Dynamic UI for login page, registration page, and home page header using React\n" +
       "2. User data storage in MongoDB Atlas\n" +
       "3. RESTful backend server using NodeJS checks login validation\n" +
-      "4. Redux state container and cookies keep track of user data after login\n\n" +
+      "4. Redux state container and cookies keep track of user data after login\n" +
+      "5. Email activation and verification\n\n" +
       "Future implementations:\n\n" +
       '- "Create post" functionality and cloud-based image and video storage\n' +
       "- Profile page\n" +
@@ -45,7 +46,7 @@ export const projects = [
     identification: "election-poll",
     tools: ["NodeJS", "Express", "EJS", "MongoDB", "mongoose"],
     description:
-      "An online election poll creator that allows users to view different election polls, vote for election candidates, nominate election candidates, or create a new election poll. Election data are stored in MongoDB Atlas database; create, read, update, and delete commands are done with the Mongoose framework.",
+      "(Give website some time to load)\nAn online election poll creator that allows users to view different election polls, vote for election candidates, nominate election candidates, or create a new election poll. Election data are stored in MongoDB Atlas database; create, read, update, and delete commands are done with the Mongoose framework.",
     link: "https://election-poll.onrender.com/",
   },
   {
@@ -53,7 +54,7 @@ export const projects = [
     identification: "blog",
     tools: ["NodeJS", "Express", "EJS", "MongoDB", "mongoose"],
     description:
-      "An online blog site that allows user to read past articles, compose new article, and delete articles.\n\nBackend server was created with NodeJS using the Express framework. Articles are stored in MongoDB Atlas database; create, read, and delete commands are done with the Mongoose framework.",
+      "(Give website some time to load)\nAn online blog site that allows user to read past articles, compose new article, and delete articles.\n\nBackend server was created with NodeJS using the Express framework. Articles are stored in MongoDB Atlas database; create, read, and delete commands are done with the Mongoose framework.",
     link: "https://blog-site-54ic.onrender.com/",
   },
   {
@@ -63,5 +64,46 @@ export const projects = [
     description:
       'An online calculator with eementary operations, paranthesis, and memory storage functionality. The calculator takes in a multi-step calculation string upon "enter" , verify syntax, and compute the result according to the order of operation.',
     link: "https://michaelmoshui.github.io/calculator/",
+  },
+  {
+    name: "Simon Game",
+    identification: "simon-game",
+    tools: ["JavaScript", "CSS", "HTML"],
+    description:
+      "A fun pattern-memorization game created using JavaScript, CSS, and HTML. View website for specific rules on how to play",
+    link: "https://michaelmoshui.github.io/Simon-game/",
+  },
+];
+
+export const skills = [
+  {
+    name: "Python",
+  },
+  {
+    name: "Java",
+  },
+  {
+    name: "MATLAB",
+  },
+  {
+    name: "JavaScript",
+  },
+  {
+    name: "CSS",
+  },
+  {
+    name: "HTML",
+  },
+  {
+    name: "React",
+  },
+  {
+    name: "NodeJS",
+  },
+  {
+    name: "Express",
+  },
+  {
+    name: "MongoDB",
   },
 ];
