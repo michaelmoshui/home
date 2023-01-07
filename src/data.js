@@ -15,7 +15,7 @@ export const projects = [
       '- "Create post" functionality and cloud-based image and video storage\n' +
       "- Profile page\n" +
       '- "Follow", "unfollow", "friend request", "search friend" functionalities',
-    link: "https://github.com/michaelmoshui/moshuiBook",
+    link: "https://moshuibook.vercel.app/",
   },
   {
     name: "Matboard Beam Design",
