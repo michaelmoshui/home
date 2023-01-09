@@ -5,14 +5,14 @@ export const projects = [
     tools: ["MongoDB", "Express", "React", "NodeJS"],
     description:
       "A Facebook clone created using the MERN stack.\n\n" +
-      "Current functionalities:\n\n" +
+      "Current functionalities:\n" +
       "1. Dynamic UI for login page, registration page, and home page header using React\n" +
       "2. User data storage in MongoDB Atlas\n" +
       "3. RESTful backend server using NodeJS checks login validation\n" +
       "4. Redux state container and cookies keep track of user data after login\n" +
       "5. Email activation and verification\n" +
       "6. Password reset\n\n" +
-      "Future implementations:\n\n" +
+      "Future implementations:\n" +
       '- "Create post" functionality and cloud-based image and video storage\n' +
       "- Profile page\n" +
       '- "Follow", "unfollow", "friend request", "search friend" functionalities',
