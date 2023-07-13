@@ -1,5 +1,19 @@
 export const projects = [
   {
+    name: "Bluedraw",
+    identification: "bluedraw",
+    tools: ["MongoDB", "Express", "React", "NextJS"],
+    description:
+      "A web app that allows user to draw on a digital whiteboard with free hand motions captured by the webcam.\n\n" +
+      "Functionalities:\n" +
+      "1. Hand motion tracking using Google MediaPipe Computer Vision API.\n" +
+      "2. Digital whiteboard using Perfect Freehand NPM package.\n" +
+      "3. Dynamic user interface created using React\n" +
+      "4. A social media platform with register, login, posting, and add friend functionalities.\n" +
+      "5. Cookies and Jotai state container to keep track of user data after login.",
+    link: "https://drawing-front-end.vercel.app/",
+  },
+  {
     name: "Moshuibook",
     identification: "moshuibook",
     tools: ["MongoDB", "Express", "React", "NodeJS"],
