@@ -1,5 +1,15 @@
 export const projects = [
   {
+    name: "Chat2Cart",
+    identification: "chat2cart",
+    tools: ["React", "Flask"],
+    description:
+      "- A web app that allows users to enter a description of the product they want and receive Amazon product results.\n" +
+      "- Incorporated ChatGPT 3.5 and Amazon search API in Python Flask for product result generation.\n" +
+      "- Interactive chatbot and result display page with React.",
+    link: "https://chat2-cart.vercel.app/",
+  },
+  {
     name: "Bluedraw",
     identification: "bluedraw",
     tools: ["MongoDB", "Express", "React", "NextJS"],
