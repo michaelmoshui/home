@@ -35,7 +35,7 @@ export default function Body() {
         </div>
         {/* id for project has to be moved up because header covers it */}
         <span className="self-introduction" id="projects">
-          I am a first-year engineering student at the University of Toronto
+          I am a second-year engineering student at the University of Toronto
           with a great passion in emerging software technology. I have had eight
           years of programming experiences and created several projects using
           Python, JavaScript, and MatLab. In my leisure time, I like to play
