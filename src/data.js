@@ -1,5 +1,15 @@
 export const projects = [
   {
+    name: "Freezing of Gait Detection with Deep Learning Models",
+    identification: "FOG",
+    tools: ["Python", "TensorFlow", "Transformers", "LSTM"],
+    description:
+      "- Developed various transformer encoder models and LSTM models to detect freezing of gait events in Parkinson's Disease patients.\n" +
+      "- Explored 6 different feature sets based on body acceleration feature extraction that produced models up to 25% better-performing than base-line acceleration features\n" +
+      "- Best-performing transformer model achieved a top 10% score in Kaggle’s Parkinson’s Disease Freezing of Gait Prediction competition.",
+    link: "https://arxiv.org/pdf/2310.06322.pdf",
+  },
+  {
     name: "Chat2Cart",
     identification: "chat2cart",
     tools: ["React", "Flask"],
@@ -101,6 +111,7 @@ export const projects = [
 ];
 
 export const skills = [
+  { name: "TensorFlow" },
   {
     name: "Python",
   },
